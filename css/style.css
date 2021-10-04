@@ -1,0 +1,26 @@
+
+.modal {
+    display: none;
+}
+
+.table {
+    margin: auto;
+}
+
+.cell {
+    width:40px; 
+    height:40px;
+    text-align: center;
+}
+
+.sky {
+    background-color: cornflowerblue;
+}
+
+.ground {
+    background-color: brown;
+}
+
+.alien {
+    background-color: darkgray;
+}
