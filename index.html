@@ -12,17 +12,24 @@
 <body onload="init()" onkeydown="onKeyDown(event)">
 
     <h1>Space Invaders</h1>
-    <h2> score: <apan class="score">0</apan>
-    </h2>
-<button class="btn" onclick="freezeAlians(this)">Freeze Alians</button>
-    <div class="modal">
-        <h2 class="msg"></h2>
-        <button class="btn" onclick="playAgain()">Play Again</button>
+    <div class="statuses">
+        <h2> score: <apan class="score">0</apan>
+        </h2>
+        <h2 class="lives">💖3</h2>
     </div>
 
-    <table>
-        <tbody class="board"></tbody>
-    </table>
+    <!-- <button class="btn" onclick="freezeAlians(this)">Freeze Alians</button> -->
+
+    <div class="game">
+        <div class="modal">
+            <h2 class="msg">Save Earth!</h2>
+            <button class="btn" onclick="startGame()">Start Game</button>
+        </div>
+        
+        <table>
+            <tbody class="board"></tbody>
+        </table>
+    </div>
 
     <script src="js/utils.js"></script>
     <script src="js/game.js"></script>
